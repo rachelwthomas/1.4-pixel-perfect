@@ -36,7 +36,6 @@ img {
 .navbar-right {
   display: inline;
   width: 50%;
-
 }
 
 
@@ -46,7 +45,7 @@ img {
 
 .main-body {
   background-color: #F4F4F4;
-  margin: 0 10%;
+  margin: 5.5% 10%;
   display: inline-block;
   position: relative;
   display: flex;
@@ -56,15 +55,21 @@ img {
 .main-body-left {
   display: inline-block;
   /* position: absolute; */
-  width: 65.5%;
-  margin-right: 2.5%;
+  width: 66%;
+  margin-right: 1.4555%;
 }
 
 .main-body-right {
   display: inline-block;
   /* position: absolute; */
-  width: 33%;
-  margin-left: 2.5%;
+  width: 32%;
+  margin-left: 1%;
 
 
+}
+
+/*********************************************************footer styling */
+.webpage-footer img{
+  width: 100%;
+  display: inline-block;
 }
