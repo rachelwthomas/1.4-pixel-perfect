@@ -20,7 +20,6 @@ img {
 .navbar-left {
   width: 50%;
   display: inline-block;
-  /* width: 600px; */
 
 
   font-family: 'lato',sans-serif;
@@ -47,7 +46,7 @@ img {
 
 .main-body {
   background-color: #F4F4F4;
-  margin: auto;
+  margin: 0 10%;
   display: inline-block;
   position: relative;
   display: flex;
@@ -56,15 +55,16 @@ img {
 
 .main-body-left {
   display: inline-block;
-  position: absolute;
-  width: 75%;
+  /* position: absolute; */
+  width: 65.5%;
+  margin-right: 2.5%;
 }
 
 .main-body-right {
   display: inline-block;
-  position: absolute;
-  width: 25%;
-  /* right: 50%; */
+  /* position: absolute; */
+  width: 33%;
+  margin-left: 2.5%;
 
 
 }
