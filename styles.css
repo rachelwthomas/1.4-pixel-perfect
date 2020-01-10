@@ -5,16 +5,42 @@ img {
   width: 100%;
 }
 .webpage {
+  width: 100%;
   display: inline-block;
 }
 /*******************************************************navbar styling */
 
 .navbar {
+  width: 100%;
   background-color: #F8F8F8;
   color: #5D5D5D;
-  text-align: center;
-  margin: 20px 200px;
+  margin: 20px 159px;
 }
+
+.navbar-left {
+  width: 50%;
+  display: inline-block;
+  /* width: 600px; */
+
+
+  font-family: 'lato',sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.navbar-left a {
+  padding: 0px 11px;
+}
+
+.navbar-right {
+  display: inline;
+  width: 50%;
+
+}
+
+
 
 
 /****************************************************main body styling */
