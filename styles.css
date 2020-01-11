@@ -260,12 +260,27 @@ body{
 .sidebar-1 p {
   color: #444444;
   text-align: center;
-  font-size: 14px;
-
-  line-height: 32px;
-  margin: 0 20px;
+  font-size: 17.5px;
+  line-height: 30px;
+  margin: 22px 33px 0 30px;
 }
 
+.social-media {
+  text-align: center;
+
+}
+.social-media a {
+  color: #C2C2C2;
+  border: solid 1px #C2C2C2;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 2px;
+}
+
+.sidebar-1 {
+  padding-bottom: 94px;
+
+}
 
 
 
