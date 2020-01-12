@@ -228,6 +228,11 @@ body{
 
 .sidebar {
   background-color: #FFFFFF;
+  margin-bottom: 46px;
+}
+
+.sidebar h1 {
+  color: #444444
 }
 
 .banner-picture img{
@@ -267,22 +272,133 @@ body{
 
 .social-media {
   text-align: center;
+  margin-top: 35px;
 
 }
 .social-media a {
   color: #C2C2C2;
-  border: solid 1px #C2C2C2;
+  font-size: 14px;
+
+}
+
+.social-media i {
+  width: 22px
+}
+
+.social-media span {
+  width: 30%;
+  padding: 7px;
+  border: solid 1px #E4E4E4;
   border-radius: 50%;
-  font-size: 20px;
-  padding: 2px;
-}
+  margin: 0 9px 0 -5px;
 
+}
 .sidebar-1 {
-  padding-bottom: 94px;
+  padding-bottom: 61px;
 
 }
 
+.sidebar-2 {
+  padding-top: 20px;
+  position: relative;
+  padding-bottom: 20px;
 
+}
+
+.sidebar-2 h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 29px;
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+.sidebar-content-2 article {
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px
+
+}
+
+.sidebar-2 img {
+  text-align: center;
+  height: 232px;
+  width: 353px;
+}
+
+.sidebar-2 h2 {
+  margin-left: 36px;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+
+.sidebar-2 span{
+  text-align: left;
+  margin-left: -205px;
+  margin-right: 20px;
+  width: 100%;
+  font-style: italic;
+  color: #ACACAC;
+}
+
+.sidebar-2-article-2 , .sidebar-2-article-3 {
+  padding-top: 26px;
+  margin-left: 32px;
+  border-top: solid 1px #E4E4E4;
+  width: 353px;
+}
+
+.sidebar-2-article-2 h2 {
+  margin-left: 4px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 21px;
+}
+
+.sidebar-2-article-2 span {
+  margin-left: -217px;
+}
+
+.sidebar-2-article-3 h2 {
+  margin-left: 4px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 21px;
+}
+
+.sidebar-2-article-3 span {
+  margin-left: -228px;
+}
+
+/**************************************************** sidebar 3 styling starts */
+
+.sidebar-3 {
+  padding: 20px 0 20px 0;
+  /* text-align: center; */
+
+}
+
+.sidebar-3 h1 {
+ text-align: center;
+}
+
+.sidebar-3 img {
+  height: 89px;
+  width: 122px;
+}
+
+.sidebar-3 .image {
+  display: inline-block;
+}
+
+.sidebar-3 .article-subcontent {
+  display: inline-block;
+}
+
+.sidebar-3 article {
+  margin: 0 34px 0 34px;
+}
 
 /*********************************************************footer styling */
 .webpage-footer {
