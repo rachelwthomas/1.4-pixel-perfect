@@ -26,6 +26,22 @@ body{
 .lato {
   font-family: 'lato', sans-serif;
 }
+/*********************************************** hover overlay effects */
+
+.overlay:hover {
+  opacity: 80%;
+
+
+
+}
+
+.image:hover {
+  background-color: #CB5C3C;
+  z-index: 1;
+  opacity: 60%;
+
+}
+
 
 /*******************************************************navbar styling */
 
@@ -84,10 +100,7 @@ body{
   font-size: 14px;
   margin: 7px;
   line-height: 21px;
-
-
   color: #AAAAAA;
-
 }
 
 
@@ -174,6 +187,15 @@ body{
   word-spacing: 1.25px;
 }
 
+.blogpost-content button:hover {
+  background: #CB5C3C;
+
+}
+.blogpost-content button span:hover {
+  color: #FFFFFF;
+}
+
+
 .blogpost-content footer {
   width: 89%;
   margin: 0 auto;
@@ -214,6 +236,10 @@ body{
   color: #C2C2C2;
   margin-left: 15px;
   font-size: 16px;
+}
+
+.footer-right a:hover {
+  color: #CB5C3C;
 }
 
 
@@ -289,8 +315,17 @@ body{
 
 }
 
+.social-media span:hover{
+  background-color: #CB5C3C;
+  color: #FFFFFF;
+}
+
 .social-media i {
-  width: 22px
+  width: 22px;
+}
+
+.social-media i:hover {
+  color: #FFFFFF;
 }
 
 .social-media span {
@@ -332,6 +367,12 @@ body{
   height: 232px;
   width: 353px;
 }
+
+.sidebar-2 .sidebar-2-article-1 .image{
+  margin: 0 32px 0 32px;
+}
+
+
 
 .sidebar-2 h2 {
   margin-left: 36px;
@@ -379,6 +420,22 @@ body{
   margin-left: -228px;
 }
 
+/*********************************************** hover overlay effects */
+
+.overlay:hover {
+  opacity: 80%;
+
+
+}
+
+.image:hover {
+  background-color: #CB5C3C;
+  z-index: 1;
+  opacity: 60%;
+  height: 100%;
+
+}
+
 /**************************************************** sidebar 3 styling starts */
 
 .sidebar-3 {
@@ -390,7 +447,8 @@ body{
 
 .sidebar-3 .image {
   display: inline-block;
-  width: 40%;
+  width: 34%;
+
 }
 .sidebar-content-3 {
   margin-top: 30px;
