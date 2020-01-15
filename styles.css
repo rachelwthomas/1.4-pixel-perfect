@@ -255,7 +255,7 @@ body{
 /***************************************************** main body right side */
 .main-body-right {
   display: inline-block;
-  /* position: absolute; */
+  position: relative;
   width: 32.5%;
   margin-left: 1.3%;
 }
@@ -522,8 +522,9 @@ padding-top: 16px;
 .sidebar-3 .article-4 {
   border: none;
 }
-
+/* added position relative on this because hover effect lit up the whole .main-body */
 .sidebar4 {
+  position: relative;
  padding-bottom: 30px;
 }
 
@@ -562,18 +563,96 @@ padding-top: 16px;
   margin-left: 4.5px;
 }
 
+.sidebar-content-4 a::before {
+  content: '';
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  background-color: red;
+  opacity: 0;
+
+  transition: opacity 1s;
+}
+
+.sidebar-content-4 a:hover::before {
+opacity: .3;
+
+}
 
 
 /*********************************************************footer styling */
 .webpage-footer {
+  position: relative;
+}
+
+/* .footer-images{
+  position: relative;
+} */
+
+.webpage-footer .footer-images {
+  position: relative;
+  height: 222px;
   width: 100%;
-  display: inline-block;
+  display: inline;
   padding-bottom: 20px;
 }
 
-.webpage-footer img {
+.webpage-footer .footer-images a img {
+  /* position: relative; */
   display: inline-block;
   height: 222px;
   width: 210px;
   margin: -2px;
+}
+
+
+
+
+/*****************************************footer hover effects  */
+/* .webpage-footer a{
+  position: relative;
+
+} */
+/* I had to move the overlay up -206 because it was displaying under
+my footer images. now my span will not show up when I hover */
+
+.footer-images::before {
+  content: '';
+  position: absolute;
+
+  top: -206px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+
+  height: 222px;
+  width: 100%;
+
+  background-color: red;
+  opacity: 0;
+
+  transition: opacity 1s;
+}
+
+.footer-images:hover::before {
+  opacity: .3;
+}
+
+.footer-images span {
+  color: #FFF;
+  position: absolute;
+
+  line-height: 12.5px;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+}
+
+.footer-images:hover span {
+  opacity: 1;
+  transition: opacity 1s;
 }
