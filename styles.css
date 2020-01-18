@@ -365,10 +365,18 @@ body{
 .sidebar-2 img {
   text-align: center;
   height: 232px;
-  width: 353px;
+
 }
 
 .sidebar-2 .sidebar-2-article-1 .image{
+  margin: 0 32px 0 32px;
+}
+
+.sidebar-2 .sidebar-2-article-2 .image{
+  margin: 0 32px 0 32px;
+}
+
+.sidebar-2 .sidebar-2-article-3 .image{
   margin: 0 32px 0 32px;
 }
 
@@ -393,13 +401,13 @@ body{
 
 .sidebar-2-article-2 , .sidebar-2-article-3 {
   padding-top: 26px;
-  margin-left: 32px;
+
   border-top: solid 1px #E4E4E4;
-  width: 353px;
+
 }
 
 .sidebar-2-article-2 h2 {
-  margin-left: 4px;
+  margin-left: 31px;
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 21px;
@@ -410,7 +418,7 @@ body{
 }
 
 .sidebar-2-article-3 h2 {
-  margin-left: 4px;
+  margin-left: 31px;
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 21px;
