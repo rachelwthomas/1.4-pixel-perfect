@@ -282,7 +282,7 @@ body{
 
   border-radius: 50%;
   height: 211px;
-  margin: -98px 105px 0px 105px;
+  margin: -98px 50% 0px 50%;
 }
 
 .sidebar-1 h1 {
@@ -594,27 +594,29 @@ opacity: .3;
 
 /*********************************************************footer styling */
 .webpage-footer {
-  position: relative;
+  height: 222px;
+
+  float: left:
+
+
+  /* position: relative; */
 }
 
-/* .footer-images{
-  position: relative;
-} */
 
 .webpage-footer .footer-images {
-  position: relative;
-  height: 222px;
-  width: 100%;
-  display: inline;
+
+  /* height: 222px; */
+  width: 12.5%;
+  display: inline-block;
   padding-bottom: 20px;
+  float: left;
 }
 
 .webpage-footer .footer-images a img {
   /* position: relative; */
   display: inline-block;
-  height: 222px;
-  width: 210px;
-  margin: -2px;
+  float: left;
+
 }
 
 
